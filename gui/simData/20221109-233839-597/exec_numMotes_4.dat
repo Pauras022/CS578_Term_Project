@@ -1,0 +1,104 @@
+{"app_pkPeriodVar": 0.05, "rpl_of": "OF0", "conn_random_init_min_neighbors": 3, "tsch_max_payload_len": 90, "tsch_keep_alive_interval": 10, "secjoin_enabled": true, "motes_eui64": [], "exec_minutesPerRun": null, "radio_stats_log_period_s": 60, "conn_simulate_ack_drop": false, "app_burstTimestamp": null, "cpuID": 0, "tsch_tx_queue_size": 10, "exec_randomSeed": 0, "tsch_max_tx_retries": 5, "rpl_daoPeriod": 60, "fragmentation_ff_vrb_table_size": 50, "combinationKeys": ["exec_numMotes"], "app_pkLength": 90, "tsch_slotframeLength": 27, "rpl_extensions": ["dis_unicast"], "conn_random_init_min_pdr": 0.5, "app_pkPeriod": 60, "conn_class": "Linear", "logRootDirectoryPath": "/Users/satviktiwari/Desktop/simulator/gui/simData", "_type": "config", "logDirectory": "20221109-233839-597", "_run_id": 0, "phy_numChans": 16, "exec_numSlotframesPerRun": 3556, "sf_class": "MSF", "tsch_clock_frequency": 32768, "tsch_slotDuration": 0.01, "fragmentation": "FragmentForwarding", "tsch_probBcast_ebProb": 0.33, "tsch_clock_max_drift_ppm": 30, "app_burstNumPackets": 0, "fragmentation_ff_discard_vrb_entry_policy": [], "exec_numMotes": 4, "conn_trace": "", "conn_random_square_side": 2, "sixlowpan_reassembly_buffers_num": 1, "app": "AppPeriodic"}
+{"_asn": 0, "_mote_id": 0, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-01-00-00", "type": "eui64"}
+{"_asn": 0, "_mote_id": 0, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::1:0", "type": "link-local"}
+{"_asn": 0, "_mote_id": 0, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 1, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-01", "type": "eui64"}
+{"_asn": 0, "_mote_id": 1, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::1", "type": "link-local"}
+{"_asn": 0, "_mote_id": 1, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 2, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-02", "type": "eui64"}
+{"_asn": 0, "_mote_id": 2, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::2", "type": "link-local"}
+{"_asn": 0, "_mote_id": 2, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 3, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-03", "type": "eui64"}
+{"_asn": 0, "_mote_id": 3, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::3", "type": "link-local"}
+{"_asn": 0, "_mote_id": 3, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_run_id": 0, "_type": "simulator.random_seed", "value": 0}
+{"_asn": 0, "_mote_id": 0, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fd00::1:0", "type": "global"}
+{"_asn": 0, "_mote_id": 0, "_run_id": 0, "_type": "secjoin.joined"}
+{"_asn": 0, "_mote_id": 0, "_run_id": 0, "_type": "tsch.synced"}
+{"_asn": 0, "_mote_id": 0, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 1}
+{"_asn": 0, "_mote_id": 0, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 2}
+{"_asn": 0, "_mote_id": 0, "_run_id": 0, "_type": "tsch.add_cell", "cellOptions": ["RX"], "channelOffset": 2, "neighbor": null, "slotFrameHandle": 1, "slotOffset": 21}
+{"_asn": 0, "_run_id": 0, "_type": "simulator.state", "name": "DiscreteEventEngine", "state": "started"}
+{"_asn": 1559, "_mote_id": 0, "_run_id": 0, "_type": "rpl.dio.tx", "packet": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "net": {"dstIp": "ff02::1a", "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}}
+{"_asn": 1559, "_mote_id": 0, "_run_id": 0, "_type": "sixlowpan.pkt.tx", "packet": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "net": {"downward": true, "dstIp": "ff02::1a", "hop_limit": 64, "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}}
+{"_asn": 1559, "_mote_id": 0, "_run_id": 0, "_type": "packet_dropped", "packet": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "mac": {"dstMac": "FF-FF", "srcMac": "02-00-00-00-00-01-00-00"}, "net": {"downward": true, "dstIp": "ff02::1a", "hop_limit": 64, "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}, "reason": "no_tx_cells"}
+{"_asn": 3840, "_mote_id": 0, "_run_id": 0, "_type": "rpl.dio.tx", "packet": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "net": {"dstIp": "ff02::1a", "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}}
+{"_asn": 3840, "_mote_id": 0, "_run_id": 0, "_type": "sixlowpan.pkt.tx", "packet": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "net": {"downward": true, "dstIp": "ff02::1a", "hop_limit": 64, "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}}
+{"_asn": 3840, "_mote_id": 0, "_run_id": 0, "_type": "packet_dropped", "packet": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "mac": {"dstMac": "FF-FF", "srcMac": "02-00-00-00-00-01-00-00"}, "net": {"downward": true, "dstIp": "ff02::1a", "hop_limit": 64, "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}, "reason": "no_tx_cells"}
+{"_asn": 6000, "_mote_id": 0, "_run_id": 0, "_type": "radio.stats", "idle_listen": 222, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 5766, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 6000, "_mote_id": 1, "_run_id": 0, "_type": "radio.stats", "idle_listen": 6000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 6000, "_mote_id": 2, "_run_id": 0, "_type": "radio.stats", "idle_listen": 6000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 6000, "_mote_id": 3, "_run_id": 0, "_type": "radio.stats", "idle_listen": 6000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 8301, "_mote_id": 0, "_run_id": 0, "_type": "rpl.dio.tx", "packet": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "net": {"dstIp": "ff02::1a", "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}}
+{"_asn": 8301, "_mote_id": 0, "_run_id": 0, "_type": "sixlowpan.pkt.tx", "packet": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "net": {"downward": true, "dstIp": "ff02::1a", "hop_limit": 64, "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}}
+{"_asn": 8301, "_mote_id": 0, "_run_id": 0, "_type": "packet_dropped", "packet": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "mac": {"dstMac": "FF-FF", "srcMac": "02-00-00-00-00-01-00-00"}, "net": {"downward": true, "dstIp": "ff02::1a", "hop_limit": 64, "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}, "reason": "no_tx_cells"}
+{"_asn": 12000, "_mote_id": 0, "_run_id": 0, "_type": "radio.stats", "idle_listen": 444, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 11538, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 12000, "_mote_id": 1, "_run_id": 0, "_type": "radio.stats", "idle_listen": 12000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 12000, "_mote_id": 2, "_run_id": 0, "_type": "radio.stats", "idle_listen": 12000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 12000, "_mote_id": 3, "_run_id": 0, "_type": "radio.stats", "idle_listen": 12000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 18000, "_mote_id": 0, "_run_id": 0, "_type": "radio.stats", "idle_listen": 666, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 17310, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 18000, "_mote_id": 1, "_run_id": 0, "_type": "radio.stats", "idle_listen": 18000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 18000, "_mote_id": 2, "_run_id": 0, "_type": "radio.stats", "idle_listen": 18000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 18000, "_mote_id": 3, "_run_id": 0, "_type": "radio.stats", "idle_listen": 18000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 20560, "_mote_id": 0, "_run_id": 0, "_type": "rpl.dio.tx", "packet": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "net": {"dstIp": "ff02::1a", "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}}
+{"_asn": 20560, "_mote_id": 0, "_run_id": 0, "_type": "sixlowpan.pkt.tx", "packet": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "net": {"downward": true, "dstIp": "ff02::1a", "hop_limit": 64, "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}}
+{"_asn": 20560, "_mote_id": 0, "_run_id": 0, "_type": "packet_dropped", "packet": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "mac": {"dstMac": "FF-FF", "srcMac": "02-00-00-00-00-01-00-00"}, "net": {"downward": true, "dstIp": "ff02::1a", "hop_limit": 64, "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}, "reason": "no_tx_cells"}
+{"_asn": 24000, "_mote_id": 0, "_run_id": 0, "_type": "radio.stats", "idle_listen": 889, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 23108, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 24000, "_mote_id": 1, "_run_id": 0, "_type": "radio.stats", "idle_listen": 24000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 24000, "_mote_id": 2, "_run_id": 0, "_type": "radio.stats", "idle_listen": 24000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 24000, "_mote_id": 3, "_run_id": 0, "_type": "radio.stats", "idle_listen": 24000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 30000, "_mote_id": 0, "_run_id": 0, "_type": "radio.stats", "idle_listen": 1111, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 28880, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 30000, "_mote_id": 1, "_run_id": 0, "_type": "radio.stats", "idle_listen": 30000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 30000, "_mote_id": 2, "_run_id": 0, "_type": "radio.stats", "idle_listen": 30000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 30000, "_mote_id": 3, "_run_id": 0, "_type": "radio.stats", "idle_listen": 30000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 36000, "_mote_id": 0, "_run_id": 0, "_type": "radio.stats", "idle_listen": 1333, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 34652, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 36000, "_mote_id": 1, "_run_id": 0, "_type": "radio.stats", "idle_listen": 36000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 36000, "_mote_id": 2, "_run_id": 0, "_type": "radio.stats", "idle_listen": 36000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 36000, "_mote_id": 3, "_run_id": 0, "_type": "radio.stats", "idle_listen": 36000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 42000, "_mote_id": 0, "_run_id": 0, "_type": "radio.stats", "idle_listen": 1555, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 40424, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 42000, "_mote_id": 1, "_run_id": 0, "_type": "radio.stats", "idle_listen": 42000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 42000, "_mote_id": 2, "_run_id": 0, "_type": "radio.stats", "idle_listen": 42000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 42000, "_mote_id": 3, "_run_id": 0, "_type": "radio.stats", "idle_listen": 42000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 48000, "_mote_id": 0, "_run_id": 0, "_type": "radio.stats", "idle_listen": 1778, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 46222, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 48000, "_mote_id": 1, "_run_id": 0, "_type": "radio.stats", "idle_listen": 48000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 48000, "_mote_id": 2, "_run_id": 0, "_type": "radio.stats", "idle_listen": 48000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 48000, "_mote_id": 3, "_run_id": 0, "_type": "radio.stats", "idle_listen": 48000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 48647, "_mote_id": 0, "_run_id": 0, "_type": "rpl.dio.tx", "packet": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "net": {"dstIp": "ff02::1a", "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}}
+{"_asn": 48647, "_mote_id": 0, "_run_id": 0, "_type": "sixlowpan.pkt.tx", "packet": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "net": {"downward": true, "dstIp": "ff02::1a", "hop_limit": 64, "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}}
+{"_asn": 48647, "_mote_id": 0, "_run_id": 0, "_type": "packet_dropped", "packet": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "mac": {"dstMac": "FF-FF", "srcMac": "02-00-00-00-00-01-00-00"}, "net": {"downward": true, "dstIp": "ff02::1a", "hop_limit": 64, "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}, "reason": "no_tx_cells"}
+{"_asn": 54000, "_mote_id": 0, "_run_id": 0, "_type": "radio.stats", "idle_listen": 2000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 51994, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 54000, "_mote_id": 1, "_run_id": 0, "_type": "radio.stats", "idle_listen": 54000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 54000, "_mote_id": 2, "_run_id": 0, "_type": "radio.stats", "idle_listen": 54000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 54000, "_mote_id": 3, "_run_id": 0, "_type": "radio.stats", "idle_listen": 54000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 60000, "_mote_id": 0, "_run_id": 0, "_type": "radio.stats", "idle_listen": 2222, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 57766, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 60000, "_mote_id": 1, "_run_id": 0, "_type": "radio.stats", "idle_listen": 60000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 60000, "_mote_id": 2, "_run_id": 0, "_type": "radio.stats", "idle_listen": 60000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 60000, "_mote_id": 3, "_run_id": 0, "_type": "radio.stats", "idle_listen": 60000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 66000, "_mote_id": 0, "_run_id": 0, "_type": "radio.stats", "idle_listen": 2444, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 63538, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 66000, "_mote_id": 1, "_run_id": 0, "_type": "radio.stats", "idle_listen": 66000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 66000, "_mote_id": 2, "_run_id": 0, "_type": "radio.stats", "idle_listen": 66000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 66000, "_mote_id": 3, "_run_id": 0, "_type": "radio.stats", "idle_listen": 66000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 72000, "_mote_id": 0, "_run_id": 0, "_type": "radio.stats", "idle_listen": 2666, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 69310, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 72000, "_mote_id": 1, "_run_id": 0, "_type": "radio.stats", "idle_listen": 72000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 72000, "_mote_id": 2, "_run_id": 0, "_type": "radio.stats", "idle_listen": 72000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 72000, "_mote_id": 3, "_run_id": 0, "_type": "radio.stats", "idle_listen": 72000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 78000, "_mote_id": 0, "_run_id": 0, "_type": "radio.stats", "idle_listen": 2889, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 75108, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 78000, "_mote_id": 1, "_run_id": 0, "_type": "radio.stats", "idle_listen": 78000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 78000, "_mote_id": 2, "_run_id": 0, "_type": "radio.stats", "idle_listen": 78000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 78000, "_mote_id": 3, "_run_id": 0, "_type": "radio.stats", "idle_listen": 78000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 84000, "_mote_id": 0, "_run_id": 0, "_type": "radio.stats", "idle_listen": 3111, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 80880, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 84000, "_mote_id": 1, "_run_id": 0, "_type": "radio.stats", "idle_listen": 84000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 84000, "_mote_id": 2, "_run_id": 0, "_type": "radio.stats", "idle_listen": 84000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 84000, "_mote_id": 3, "_run_id": 0, "_type": "radio.stats", "idle_listen": 84000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 90000, "_mote_id": 0, "_run_id": 0, "_type": "radio.stats", "idle_listen": 3333, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 86652, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 90000, "_mote_id": 1, "_run_id": 0, "_type": "radio.stats", "idle_listen": 90000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 90000, "_mote_id": 2, "_run_id": 0, "_type": "radio.stats", "idle_listen": 90000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 90000, "_mote_id": 3, "_run_id": 0, "_type": "radio.stats", "idle_listen": 90000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 91801, "_mote_id": 0, "_run_id": 0, "_type": "rpl.dio.tx", "packet": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "net": {"dstIp": "ff02::1a", "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}}
+{"_asn": 91801, "_mote_id": 0, "_run_id": 0, "_type": "sixlowpan.pkt.tx", "packet": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "net": {"downward": true, "dstIp": "ff02::1a", "hop_limit": 64, "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}}
+{"_asn": 91801, "_mote_id": 0, "_run_id": 0, "_type": "packet_dropped", "packet": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "mac": {"dstMac": "FF-FF", "srcMac": "02-00-00-00-00-01-00-00"}, "net": {"downward": true, "dstIp": "ff02::1a", "hop_limit": 64, "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}, "reason": "no_tx_cells"}
+{"_asn": 96000, "_mote_id": 0, "_run_id": 0, "_type": "radio.stats", "idle_listen": 3555, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 92424, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 96000, "_mote_id": 1, "_run_id": 0, "_type": "radio.stats", "idle_listen": 96000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 96000, "_mote_id": 2, "_run_id": 0, "_type": "radio.stats", "idle_listen": 96000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 96000, "_mote_id": 3, "_run_id": 0, "_type": "radio.stats", "idle_listen": 96000, "rx_data": 0, "rx_data_tx_ack": 0, "sleep": 0, "tx_data": 0, "tx_data_rx_ack": 0}
+{"_asn": 96012, "_run_id": 0, "_type": "simulator.state", "name": "DiscreteEventEngine", "state": "stopped"}

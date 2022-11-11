@@ -1,0 +1,16 @@
+Exception in thread DiscreteEventEngine:
+Traceback (most recent call last):
+  File "/Users/satviktiwari/opt/anaconda3/envs/py2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/Users/satviktiwari/Desktop/simulator/gui/backend/../../SimEngine/SimEngine.py", line 139, in run
+    cb()
+  File "/Users/satviktiwari/Desktop/simulator/gui/backend/../../SimEngine/Mote/tsch.py", line 858, in _action_listeningForEB_cell
+    self.schedule_next_listeningForEB_cell()
+  File "/Users/satviktiwari/Desktop/simulator/gui/backend/../../SimEngine/Mote/tsch.py", line 257, in schedule_next_listeningForEB_cell
+    intraSlotOrder   = d.INTRASLOTORDER_STARTSLOT,
+  File "/Users/satviktiwari/Desktop/simulator/gui/backend/../../SimEngine/SimEngine.py", line 232, in scheduleAtAsn
+    with self.dataLock:
+  File "/Users/satviktiwari/opt/anaconda3/envs/py2/lib/python2.7/threading.py", line 174, in acquire
+    rc = self.__block.acquire(blocking)
+KeyboardInterrupt
+

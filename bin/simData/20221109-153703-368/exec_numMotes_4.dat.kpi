@@ -1,0 +1,138 @@
+{
+    "0": {
+        "1": {
+            "upstream_num_tx": 14,
+            "upstream_num_rx": 14,
+            "upstream_num_lost": 0,
+            "join_time_s": 216.14000000000001,
+            "sync_time_s": 196.16,
+            "latencies": [
+                1.6300000000000001,
+                0.6900000000000001,
+                0.38,
+                0.49,
+                0.23,
+                0.99,
+                0.97,
+                0.8,
+                0.24,
+                0.2,
+                0.71,
+                2.3000000000000003,
+                0.08,
+                0.78
+            ],
+            "lifetime_AA_years": 1.7489105453831575,
+            "avg_current_uA": 184.16553204859656,
+            "latency_min_s": 0.08,
+            "latency_avg_s": 0.7492857142857143,
+            "latency_max_s": 2.3000000000000003,
+            "upstream_reliability": 1.0,
+            "avg_hops": 1.0
+        },
+        "2": {
+            "upstream_num_tx": 2,
+            "upstream_num_rx": 2,
+            "upstream_num_lost": 0,
+            "join_time_s": 859.51,
+            "sync_time_s": 855.69,
+            "latencies": [
+                8.790000000000001,
+                1.93
+            ],
+            "lifetime_AA_years": 0.06105982792861116,
+            "avg_current_uA": 5274.974594957338,
+            "latency_min_s": 1.93,
+            "latency_avg_s": 5.36,
+            "latency_max_s": 8.790000000000001,
+            "upstream_reliability": 1.0,
+            "avg_hops": 2.0
+        },
+        "3": {
+            "upstream_num_tx": 0,
+            "upstream_num_rx": 0,
+            "upstream_num_lost": 0,
+            "join_time_s": null,
+            "sync_time_s": null,
+            "latencies": [],
+            "lifetime_AA_years": null,
+            "avg_current_uA": null
+        },
+        "global-stats": {
+            "e2e-upstream-delivery": [
+                {
+                    "name": "E2E Upstream Delivery Ratio",
+                    "unit": "%",
+                    "value": 1.0
+                },
+                {
+                    "name": "E2E Upstream Loss Rate",
+                    "unit": "%",
+                    "value": 0.0
+                }
+            ],
+            "e2e-upstream-latency": [
+                {
+                    "name": "E2E Upstream Latency",
+                    "unit": "s",
+                    "mean": 1.325625,
+                    "min": 0.08,
+                    "max": 8.790000000000001,
+                    "99%": 7.816499999999999
+                },
+                {
+                    "name": "E2E Upstream Latency",
+                    "unit": "slots",
+                    "mean": 132.5625,
+                    "min": 8.0,
+                    "max": 879.0000000000001,
+                    "99%": 781.6499999999999
+                }
+            ],
+            "current-consumed": [
+                {
+                    "name": "Current Consumed",
+                    "unit": "mA",
+                    "mean": 435107.2666666666,
+                    "99%": 613132.5279999999
+                }
+            ],
+            "network_lifetime": [
+                {
+                    "name": "Network Lifetime",
+                    "unit": "years",
+                    "min": 0.06105982792861116,
+                    "total_capacity_mAh": 2821.5
+                }
+            ],
+            "joining-time": [
+                {
+                    "name": "Joining Time",
+                    "unit": "slots",
+                    "min": 21614,
+                    "max": 85951,
+                    "mean": 53782.5,
+                    "99%": 85307.63
+                }
+            ],
+            "app-packets-sent": [
+                {
+                    "name": "Number of application packets sent",
+                    "total": 16
+                }
+            ],
+            "app_packets_received": [
+                {
+                    "name": "Number of application packets received",
+                    "total": 16
+                }
+            ],
+            "app_packets_lost": [
+                {
+                    "name": "Number of application packets lost",
+                    "total": 0
+                }
+            ]
+        }
+    }
+}

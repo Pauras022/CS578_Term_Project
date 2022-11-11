@@ -1,0 +1,95 @@
+
+==============================
+
+CRASH in DiscreteEventEngine!
+
+Traceback (most recent call last):
+  File "/Users/satviktiwari/Desktop/simulator/gui/backend/../../SimEngine/SimEngine.py", line 139, in run
+    cb()
+  File "/Users/satviktiwari/Desktop/simulator/gui/backend/../../SimEngine/Connectivity.py", line 281, in propagate
+    packet=lockon_transmission[u'packet'],
+  File "/Users/satviktiwari/Desktop/simulator/gui/backend/../../SimEngine/Mote/radio.py", line 137, in rxDone
+    is_acked = self.mote.tsch.rxDone(packet, self.channel)
+  File "/Users/satviktiwari/Desktop/simulator/gui/backend/../../SimEngine/Mote/tsch.py", line 787, in rxDone
+    self.mote.sixp.recv_packet(packet)
+  File "/Users/satviktiwari/Desktop/simulator/gui/backend/../../SimEngine/Mote/sixp.py", line 69, in recv_packet
+    self._recv_response(packet)
+  File "/Users/satviktiwari/Desktop/simulator/gui/backend/../../SimEngine/Mote/sixp.py", line 435, in _recv_response
+    packet = response
+  File "/Users/satviktiwari/Desktop/simulator/gui/backend/../../SimEngine/Mote/sixp.py", line 748, in invoke_callback
+    self.callback(event, packet)
+  File "/Users/satviktiwari/Desktop/simulator/gui/backend/../../SimEngine/Mote/sf.py", line 1112, in callback
+    cell_options = cell_options
+  File "/Users/satviktiwari/Desktop/simulator/gui/backend/../../SimEngine/Mote/sf.py", line 695, in _add_cells
+    ss=self.select_slot_frame(1)
+  File "/Users/satviktiwari/Desktop/simulator/gui/backend/../../SimEngine/Mote/sf.py", line 756, in select_slot_frame
+    del G[e]
+IndexError: list assignment index out of range
+
+==============================
+
+The current ASN is 18297
+The log file is /Users/satviktiwari/Desktop/simulator/gui/simData/20221110-194507-234/exec_numMotes_4/output_cpu0.dat
+
+==============================
+config.json to reproduce:
+
+{
+    "logging": "all", 
+    "settings": {
+        "regular": {
+            "app_pkPeriodVar": 0.05, 
+            "rpl_of": "OF0", 
+            "tsch_max_payload_len": 90, 
+            "tsch_keep_alive_interval": 10, 
+            "secjoin_enabled": true, 
+            "motes_eui64": [], 
+            "exec_minutesPerRun": null, 
+            "radio_stats_log_period_s": 60, 
+            "conn_simulate_ack_drop": false, 
+            "app_burstTimestamp": null, 
+            "tsch_tx_queue_size": 10, 
+            "exec_randomSeed": 3006, 
+            "tsch_max_tx_retries": 5, 
+            "rpl_daoPeriod": 60, 
+            "fragmentation_ff_vrb_table_size": 50, 
+            "conn_trace": "", 
+            "app_pkLength": 90, 
+            "tsch_slotframeLength": 26, 
+            "rpl_extensions": [
+                "dis_unicast"
+            ], 
+            "conn_random_init_min_pdr": 0.5, 
+            "app_pkPeriod": 60, 
+            "conn_class": "Random", 
+            "app": "AppPeriodic", 
+            "phy_numChans": 16, 
+            "exec_numSlotframesPerRun": 2308, 
+            "tsch_clock_frequency": 32768, 
+            "tsch_slotDuration": 0.01, 
+            "fragmentation": "FragmentForwarding", 
+            "tsch_probBcast_ebProb": 0.33, 
+            "tsch_clock_max_drift_ppm": 30, 
+            "app_burstNumPackets": 0, 
+            "fragmentation_ff_discard_vrb_entry_policy": [], 
+            "conn_random_init_min_neighbors": 3, 
+            "conn_random_square_side": 2, 
+            "sixlowpan_reassembly_buffers_num": 1, 
+            "sf_class": "MSF"
+        }, 
+        "combination": {
+            "exec_numMotes": [
+                4
+            ]
+        }
+    }, 
+    "log_directory_name": "startTime", 
+    "version": 0, 
+    "post": [], 
+    "execution": {
+        "numRuns": 1, 
+        "numCPUs": 1
+    }
+}
+
+==============================

@@ -1,0 +1,12 @@
+Exception in thread DiscreteEventEngine:
+Traceback (most recent call last):
+  File "/Users/satviktiwari/opt/anaconda3/envs/py2/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/Users/satviktiwari/Desktop/simulator/gui/backend/../../SimEngine/SimEngine.py", line 139, in run
+    cb()
+  File "/Users/satviktiwari/Desktop/simulator/gui/backend/../../SimEngine/Connectivity.py", line 158, in propagate
+    packet = None,
+  File "/Users/satviktiwari/Desktop/simulator/gui/backend/../../SimEngine/Mote/radio.py", line 118, in rxDone
+    self.state   = d.RADIO_STATE_OFF
+KeyboardInterrupt
+

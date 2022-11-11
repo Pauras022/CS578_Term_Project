@@ -1,0 +1,364 @@
+{"app_pkPeriodVar": 0.05, "rpl_of": "OF0", "conn_random_init_min_neighbors": 3, "tsch_max_payload_len": 90, "tsch_keep_alive_interval": 10, "secjoin_enabled": true, "motes_eui64": [], "exec_minutesPerRun": null, "radio_stats_log_period_s": 60, "conn_simulate_ack_drop": false, "app_burstTimestamp": null, "cpuID": 0, "tsch_tx_queue_size": 10, "exec_randomSeed": 0, "tsch_max_tx_retries": 5, "rpl_daoPeriod": 60, "fragmentation_ff_vrb_table_size": 50, "combinationKeys": ["exec_numMotes"], "app_pkLength": 90, "tsch_slotframeLength": 27, "rpl_extensions": ["dis_unicast"], "conn_random_init_min_pdr": 0.5, "app_pkPeriod": 60, "conn_class": "Random", "logRootDirectoryPath": "/Users/satviktiwari/Desktop/simulator/gui/simData", "_type": "config", "logDirectory": "20221109-232914-239", "_run_id": 0, "phy_numChans": 16, "exec_numSlotframesPerRun": 80000, "sf_class": "MSF", "tsch_clock_frequency": 32768, "tsch_slotDuration": 0.01, "fragmentation": "FragmentForwarding", "tsch_probBcast_ebProb": 0.33, "tsch_clock_max_drift_ppm": 30, "app_burstNumPackets": 0, "fragmentation_ff_discard_vrb_entry_policy": [], "exec_numMotes": 50, "conn_trace": "", "conn_random_square_side": 2, "sixlowpan_reassembly_buffers_num": 1, "app": "AppPeriodic"}
+{"_asn": 0, "_mote_id": 0, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-01-00-00", "type": "eui64"}
+{"_asn": 0, "_mote_id": 0, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::1:0", "type": "link-local"}
+{"_asn": 0, "_mote_id": 0, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 1, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-01", "type": "eui64"}
+{"_asn": 0, "_mote_id": 1, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::1", "type": "link-local"}
+{"_asn": 0, "_mote_id": 1, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 2, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-02", "type": "eui64"}
+{"_asn": 0, "_mote_id": 2, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::2", "type": "link-local"}
+{"_asn": 0, "_mote_id": 2, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 3, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-03", "type": "eui64"}
+{"_asn": 0, "_mote_id": 3, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::3", "type": "link-local"}
+{"_asn": 0, "_mote_id": 3, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 4, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-04", "type": "eui64"}
+{"_asn": 0, "_mote_id": 4, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::4", "type": "link-local"}
+{"_asn": 0, "_mote_id": 4, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 5, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-05", "type": "eui64"}
+{"_asn": 0, "_mote_id": 5, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::5", "type": "link-local"}
+{"_asn": 0, "_mote_id": 5, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 6, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-06", "type": "eui64"}
+{"_asn": 0, "_mote_id": 6, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::6", "type": "link-local"}
+{"_asn": 0, "_mote_id": 6, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 7, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-07", "type": "eui64"}
+{"_asn": 0, "_mote_id": 7, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::7", "type": "link-local"}
+{"_asn": 0, "_mote_id": 7, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 8, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-08", "type": "eui64"}
+{"_asn": 0, "_mote_id": 8, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::8", "type": "link-local"}
+{"_asn": 0, "_mote_id": 8, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 9, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-09", "type": "eui64"}
+{"_asn": 0, "_mote_id": 9, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::9", "type": "link-local"}
+{"_asn": 0, "_mote_id": 9, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 10, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-0A", "type": "eui64"}
+{"_asn": 0, "_mote_id": 10, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::a", "type": "link-local"}
+{"_asn": 0, "_mote_id": 10, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 11, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-0B", "type": "eui64"}
+{"_asn": 0, "_mote_id": 11, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::b", "type": "link-local"}
+{"_asn": 0, "_mote_id": 11, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 12, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-0C", "type": "eui64"}
+{"_asn": 0, "_mote_id": 12, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::c", "type": "link-local"}
+{"_asn": 0, "_mote_id": 12, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 13, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-0D", "type": "eui64"}
+{"_asn": 0, "_mote_id": 13, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::d", "type": "link-local"}
+{"_asn": 0, "_mote_id": 13, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 14, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-0E", "type": "eui64"}
+{"_asn": 0, "_mote_id": 14, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::e", "type": "link-local"}
+{"_asn": 0, "_mote_id": 14, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 15, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-0F", "type": "eui64"}
+{"_asn": 0, "_mote_id": 15, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::f", "type": "link-local"}
+{"_asn": 0, "_mote_id": 15, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 16, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-10", "type": "eui64"}
+{"_asn": 0, "_mote_id": 16, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::10", "type": "link-local"}
+{"_asn": 0, "_mote_id": 16, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 17, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-11", "type": "eui64"}
+{"_asn": 0, "_mote_id": 17, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::11", "type": "link-local"}
+{"_asn": 0, "_mote_id": 17, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 18, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-12", "type": "eui64"}
+{"_asn": 0, "_mote_id": 18, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::12", "type": "link-local"}
+{"_asn": 0, "_mote_id": 18, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 19, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-13", "type": "eui64"}
+{"_asn": 0, "_mote_id": 19, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::13", "type": "link-local"}
+{"_asn": 0, "_mote_id": 19, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 20, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-14", "type": "eui64"}
+{"_asn": 0, "_mote_id": 20, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::14", "type": "link-local"}
+{"_asn": 0, "_mote_id": 20, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 21, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-15", "type": "eui64"}
+{"_asn": 0, "_mote_id": 21, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::15", "type": "link-local"}
+{"_asn": 0, "_mote_id": 21, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 22, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-16", "type": "eui64"}
+{"_asn": 0, "_mote_id": 22, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::16", "type": "link-local"}
+{"_asn": 0, "_mote_id": 22, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 23, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-17", "type": "eui64"}
+{"_asn": 0, "_mote_id": 23, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::17", "type": "link-local"}
+{"_asn": 0, "_mote_id": 23, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 24, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-18", "type": "eui64"}
+{"_asn": 0, "_mote_id": 24, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::18", "type": "link-local"}
+{"_asn": 0, "_mote_id": 24, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 25, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-19", "type": "eui64"}
+{"_asn": 0, "_mote_id": 25, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::19", "type": "link-local"}
+{"_asn": 0, "_mote_id": 25, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 26, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-1A", "type": "eui64"}
+{"_asn": 0, "_mote_id": 26, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::1a", "type": "link-local"}
+{"_asn": 0, "_mote_id": 26, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 27, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-1B", "type": "eui64"}
+{"_asn": 0, "_mote_id": 27, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::1b", "type": "link-local"}
+{"_asn": 0, "_mote_id": 27, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 28, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-1C", "type": "eui64"}
+{"_asn": 0, "_mote_id": 28, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::1c", "type": "link-local"}
+{"_asn": 0, "_mote_id": 28, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 29, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-1D", "type": "eui64"}
+{"_asn": 0, "_mote_id": 29, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::1d", "type": "link-local"}
+{"_asn": 0, "_mote_id": 29, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 30, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-1E", "type": "eui64"}
+{"_asn": 0, "_mote_id": 30, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::1e", "type": "link-local"}
+{"_asn": 0, "_mote_id": 30, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 31, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-1F", "type": "eui64"}
+{"_asn": 0, "_mote_id": 31, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::1f", "type": "link-local"}
+{"_asn": 0, "_mote_id": 31, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 32, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-20", "type": "eui64"}
+{"_asn": 0, "_mote_id": 32, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::20", "type": "link-local"}
+{"_asn": 0, "_mote_id": 32, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 33, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-21", "type": "eui64"}
+{"_asn": 0, "_mote_id": 33, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::21", "type": "link-local"}
+{"_asn": 0, "_mote_id": 33, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 34, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-22", "type": "eui64"}
+{"_asn": 0, "_mote_id": 34, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::22", "type": "link-local"}
+{"_asn": 0, "_mote_id": 34, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 35, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-23", "type": "eui64"}
+{"_asn": 0, "_mote_id": 35, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::23", "type": "link-local"}
+{"_asn": 0, "_mote_id": 35, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 36, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-24", "type": "eui64"}
+{"_asn": 0, "_mote_id": 36, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::24", "type": "link-local"}
+{"_asn": 0, "_mote_id": 36, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 37, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-25", "type": "eui64"}
+{"_asn": 0, "_mote_id": 37, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::25", "type": "link-local"}
+{"_asn": 0, "_mote_id": 37, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 38, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-26", "type": "eui64"}
+{"_asn": 0, "_mote_id": 38, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::26", "type": "link-local"}
+{"_asn": 0, "_mote_id": 38, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 39, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-27", "type": "eui64"}
+{"_asn": 0, "_mote_id": 39, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::27", "type": "link-local"}
+{"_asn": 0, "_mote_id": 39, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 40, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-28", "type": "eui64"}
+{"_asn": 0, "_mote_id": 40, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::28", "type": "link-local"}
+{"_asn": 0, "_mote_id": 40, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 41, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-29", "type": "eui64"}
+{"_asn": 0, "_mote_id": 41, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::29", "type": "link-local"}
+{"_asn": 0, "_mote_id": 41, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 42, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-2A", "type": "eui64"}
+{"_asn": 0, "_mote_id": 42, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::2a", "type": "link-local"}
+{"_asn": 0, "_mote_id": 42, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 43, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-2B", "type": "eui64"}
+{"_asn": 0, "_mote_id": 43, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::2b", "type": "link-local"}
+{"_asn": 0, "_mote_id": 43, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 44, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-2C", "type": "eui64"}
+{"_asn": 0, "_mote_id": 44, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::2c", "type": "link-local"}
+{"_asn": 0, "_mote_id": 44, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 45, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-2D", "type": "eui64"}
+{"_asn": 0, "_mote_id": 45, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::2d", "type": "link-local"}
+{"_asn": 0, "_mote_id": 45, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 46, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-2E", "type": "eui64"}
+{"_asn": 0, "_mote_id": 46, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::2e", "type": "link-local"}
+{"_asn": 0, "_mote_id": 46, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 47, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-2F", "type": "eui64"}
+{"_asn": 0, "_mote_id": 47, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::2f", "type": "link-local"}
+{"_asn": 0, "_mote_id": 47, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 48, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-30", "type": "eui64"}
+{"_asn": 0, "_mote_id": 48, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::30", "type": "link-local"}
+{"_asn": 0, "_mote_id": 48, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_mote_id": 49, "_run_id": 0, "_type": "mac.add_addr", "addr": "02-00-00-00-00-00-00-31", "type": "eui64"}
+{"_asn": 0, "_mote_id": 49, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fe80::31", "type": "link-local"}
+{"_asn": 0, "_mote_id": 49, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 0}
+{"_asn": 0, "_run_id": 0, "_type": "simulator.random_seed", "value": 0}
+{"_asn": 0, "_mote_id": 0, "_run_id": 0, "_type": "ipv6.add_addr", "addr": "fd00::1:0", "type": "global"}
+{"_asn": 0, "_mote_id": 0, "_run_id": 0, "_type": "secjoin.joined"}
+{"_asn": 0, "_mote_id": 0, "_run_id": 0, "_type": "tsch.synced"}
+{"_asn": 0, "_mote_id": 0, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 1}
+{"_asn": 0, "_mote_id": 0, "_run_id": 0, "_type": "tsch.add_slotframe", "length": 27, "slotFrameHandle": 2}
+{"_asn": 0, "_mote_id": 0, "_run_id": 0, "_type": "tsch.add_cell", "cellOptions": ["RX"], "channelOffset": 2, "neighbor": null, "slotFrameHandle": 1, "slotOffset": 21}
+{"_asn": 0, "_mote_id": 0, "_run_id": 0, "_type": "tsch.add_cell", "cellOptions": ["TX", "RX", "SHARED"], "channelOffset": 0, "neighbor": null, "slotFrameHandle": 0, "slotOffset": 0}
+{"_asn": 0, "_run_id": 0, "_type": "simulator.state", "name": "DiscreteEventEngine", "state": "started"}
+{"_asn": 27, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 27, "_mote_id": 4, "_run_id": 0, "_type": "tsch.rxdone", "channel": 13, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 27, "_mote_id": 4, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 27, "_mote_id": 17, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 13, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 27, "_mote_id": 32, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 13, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 27, "_mote_id": 47, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 13, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 27, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 13, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 81, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 81, "_mote_id": 1, "_run_id": 0, "_type": "tsch.rxdone", "channel": 17, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 81, "_mote_id": 1, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 81, "_mote_id": 32, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 17, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 81, "_mote_id": 33, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 17, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 81, "_mote_id": 40, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 17, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 81, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 17, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 108, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 108, "_mote_id": 1, "_run_id": 0, "_type": "tsch.rxdone", "channel": 24, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 108, "_mote_id": 1, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 108, "_mote_id": 5, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 24, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 108, "_mote_id": 10, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 24, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 108, "_mote_id": 12, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 24, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 108, "_mote_id": 43, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 24, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 108, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 24, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 243, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 243, "_mote_id": 19, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 18, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 243, "_mote_id": 32, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 18, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 243, "_mote_id": 41, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 18, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 243, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 18, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 270, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 270, "_mote_id": 2, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 20, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 270, "_mote_id": 10, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 20, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 270, "_mote_id": 26, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 20, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 270, "_mote_id": 29, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 20, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 270, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 20, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 324, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 324, "_mote_id": 2, "_run_id": 0, "_type": "tsch.rxdone", "channel": 26, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 324, "_mote_id": 2, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 324, "_mote_id": 8, "_run_id": 0, "_type": "tsch.rxdone", "channel": 26, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 324, "_mote_id": 8, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 324, "_mote_id": 15, "_run_id": 0, "_type": "tsch.rxdone", "channel": 26, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 324, "_mote_id": 15, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 324, "_mote_id": 21, "_run_id": 0, "_type": "tsch.rxdone", "channel": 26, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 324, "_mote_id": 21, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 324, "_mote_id": 39, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 26, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 324, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 26, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 513, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 513, "_mote_id": 2, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 17, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 513, "_mote_id": 3, "_run_id": 0, "_type": "tsch.rxdone", "channel": 17, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 513, "_mote_id": 3, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 513, "_mote_id": 4, "_run_id": 0, "_type": "tsch.rxdone", "channel": 17, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 513, "_mote_id": 4, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 513, "_mote_id": 6, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 17, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 513, "_mote_id": 8, "_run_id": 0, "_type": "tsch.rxdone", "channel": 17, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 513, "_mote_id": 8, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 513, "_mote_id": 30, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 17, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 513, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 17, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 540, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 540, "_mote_id": 21, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 24, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 540, "_mote_id": 25, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 24, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 540, "_mote_id": 43, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 24, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 540, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 24, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 648, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 648, "_mote_id": 27, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 19, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 648, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 19, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 729, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 729, "_mote_id": 18, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 11, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 729, "_mote_id": 24, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 11, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 729, "_mote_id": 27, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 11, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 729, "_mote_id": 43, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 11, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 729, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 11, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 783, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 783, "_mote_id": 10, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 21, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 783, "_mote_id": 14, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 21, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 783, "_mote_id": 19, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 21, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 783, "_mote_id": 46, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 21, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 783, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 21, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 810, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 810, "_mote_id": 12, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 12, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 810, "_mote_id": 19, "_run_id": 0, "_type": "tsch.rxdone", "channel": 12, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 810, "_mote_id": 19, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 810, "_mote_id": 21, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 12, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 810, "_mote_id": 37, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 12, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 810, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 12, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 1026, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1026, "_mote_id": 1, "_run_id": 0, "_type": "tsch.rxdone", "channel": 23, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 1026, "_mote_id": 1, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1026, "_mote_id": 8, "_run_id": 0, "_type": "tsch.rxdone", "channel": 23, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 1026, "_mote_id": 8, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1026, "_mote_id": 12, "_run_id": 0, "_type": "tsch.rxdone", "channel": 23, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 1026, "_mote_id": 12, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1026, "_mote_id": 24, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 23, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1026, "_mote_id": 29, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 23, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1026, "_mote_id": 31, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 23, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1026, "_mote_id": 42, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 23, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1026, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 23, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 1107, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1107, "_mote_id": 22, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 18, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1107, "_mote_id": 30, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 18, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1107, "_mote_id": 42, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 18, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1107, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 18, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 1161, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1161, "_mote_id": 5, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 11, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1161, "_mote_id": 11, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 11, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1161, "_mote_id": 32, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 11, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1161, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 11, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 1216, "_mote_id": 0, "_run_id": 0, "_type": "rpl.dio.tx", "packet": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "net": {"dstIp": "ff02::1a", "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}}
+{"_asn": 1216, "_mote_id": 0, "_run_id": 0, "_type": "sixlowpan.pkt.tx", "packet": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "net": {"downward": true, "dstIp": "ff02::1a", "hop_limit": 64, "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}}
+{"_asn": 1242, "_mote_id": 30, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 12, "lockon_transmission": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "mac": {"dstMac": "FF-FF", "pending_bit": false, "priority": false, "retriesLeft": 5, "seqnum": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "net": {"downward": true, "dstIp": "ff02::1a", "hop_limit": 64, "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}}
+{"_asn": 1242, "_mote_id": 42, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 12, "lockon_transmission": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "mac": {"dstMac": "FF-FF", "pending_bit": false, "priority": false, "retriesLeft": 5, "seqnum": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "net": {"downward": true, "dstIp": "ff02::1a", "hop_limit": 64, "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}}
+{"_asn": 1242, "_mote_id": 45, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 12, "lockon_transmission": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "mac": {"dstMac": "FF-FF", "pending_bit": false, "priority": false, "retriesLeft": 5, "seqnum": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "net": {"downward": true, "dstIp": "ff02::1a", "hop_limit": 64, "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}}
+{"_asn": 1242, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 12, "channel_offset": 0, "isACKed": false, "packet": {"app": {"dodagId": "fd00::1:0", "rank": 256}, "mac": {"dstMac": "FF-FF", "pending_bit": false, "priority": false, "retriesLeft": 5, "seqnum": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "net": {"downward": true, "dstIp": "ff02::1a", "hop_limit": 64, "packet_length": 76, "srcIp": "fe80::1:0"}, "type": "DIO"}, "slot_offset": 0}
+{"_asn": 1350, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1350, "_mote_id": 33, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 25, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1350, "_mote_id": 41, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 25, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1350, "_mote_id": 47, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 25, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1350, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 25, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 1431, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1431, "_mote_id": 8, "_run_id": 0, "_type": "tsch.rxdone", "channel": 22, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 1431, "_mote_id": 8, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1431, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 22, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 1647, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1647, "_mote_id": 1, "_run_id": 0, "_type": "tsch.rxdone", "channel": 21, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 1647, "_mote_id": 1, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1647, "_mote_id": 11, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 21, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1647, "_mote_id": 21, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 21, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1647, "_mote_id": 28, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 21, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1647, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 21, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 1674, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1674, "_mote_id": 10, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 12, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1674, "_mote_id": 12, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 12, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1674, "_mote_id": 16, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 12, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1674, "_mote_id": 45, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 12, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1674, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 12, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 1701, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1701, "_mote_id": 3, "_run_id": 0, "_type": "tsch.rxdone", "channel": 15, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 1701, "_mote_id": 3, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1701, "_mote_id": 15, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 15, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1701, "_mote_id": 23, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 15, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1701, "_mote_id": 25, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 15, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1701, "_mote_id": 38, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 15, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1701, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 15, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 1809, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1809, "_mote_id": 1, "_run_id": 0, "_type": "tsch.rxdone", "channel": 17, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 1809, "_mote_id": 1, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1809, "_mote_id": 3, "_run_id": 0, "_type": "tsch.rxdone", "channel": 17, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 1809, "_mote_id": 3, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1809, "_mote_id": 9, "_run_id": 0, "_type": "tsch.rxdone", "channel": 17, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 1809, "_mote_id": 9, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1809, "_mote_id": 17, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 17, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1809, "_mote_id": 22, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 17, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1809, "_mote_id": 48, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 17, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1809, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 17, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 1917, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1917, "_mote_id": 9, "_run_id": 0, "_type": "tsch.rxdone", "channel": 14, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 1917, "_mote_id": 9, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1917, "_mote_id": 10, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 14, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1917, "_mote_id": 21, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 14, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1917, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 14, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 1971, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1971, "_mote_id": 9, "_run_id": 0, "_type": "tsch.rxdone", "channel": 18, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 1971, "_mote_id": 9, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1971, "_mote_id": 18, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 18, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1971, "_mote_id": 36, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 18, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 1971, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 18, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 2052, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2052, "_mote_id": 5, "_run_id": 0, "_type": "tsch.rxdone", "channel": 26, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 2052, "_mote_id": 5, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2052, "_mote_id": 9, "_run_id": 0, "_type": "tsch.rxdone", "channel": 26, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 2052, "_mote_id": 9, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2052, "_mote_id": 37, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 26, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2052, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 26, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 2133, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2133, "_mote_id": 3, "_run_id": 0, "_type": "tsch.rxdone", "channel": 15, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 2133, "_mote_id": 3, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2133, "_mote_id": 9, "_run_id": 0, "_type": "tsch.rxdone", "channel": 15, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 2133, "_mote_id": 9, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2133, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 15, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 2160, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2160, "_mote_id": 9, "_run_id": 0, "_type": "tsch.rxdone", "channel": 16, "channel_offset": null, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": null}
+{"_asn": 2160, "_mote_id": 9, "_run_id": 0, "_type": "tsch.eb.rx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2160, "_mote_id": 29, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 16, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2160, "_mote_id": 31, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 16, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2160, "_mote_id": 42, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 16, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2160, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 16, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 2187, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2187, "_mote_id": 39, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 13, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2187, "_mote_id": 43, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 13, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2187, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 13, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 2241, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2241, "_mote_id": 23, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 17, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2241, "_mote_id": 30, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 17, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2241, "_mote_id": 31, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 17, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2241, "_mote_id": 37, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 17, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2241, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 17, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 2295, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2295, "_mote_id": 20, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 22, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2295, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 22, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
+{"_asn": 2511, "_mote_id": 0, "_run_id": 0, "_type": "tsch.eb.tx", "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2511, "_mote_id": 25, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 21, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2511, "_mote_id": 33, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 21, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2511, "_mote_id": 37, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 21, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2511, "_mote_id": 40, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 21, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2511, "_mote_id": 42, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 21, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2511, "_mote_id": 49, "_run_id": 0, "_type": "prop.drop_lockon", "channel": 21, "lockon_transmission": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}}
+{"_asn": 2511, "_mote_id": 0, "_run_id": 0, "_type": "tsch.txdone", "channel": 21, "channel_offset": 0, "isACKed": false, "packet": {"mac": {"dstMac": "FF-FF", "join_metric": 0, "pending_bit": false, "srcMac": "02-00-00-00-00-01-00-00"}, "type": "EB"}, "slot_offset": 0}
